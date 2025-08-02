@@ -12,6 +12,10 @@
             nav {
                  /*first lesson*/
                 background-color:aquamarine;
+                /*fourth lesson*/
+                position: sticky;
+                top: 0;
+                z-index: 2;
             }
 
             header {
@@ -120,7 +124,12 @@
                 padding: 5px;
                 border-radius: 5px;
                 border: none;
+                /*fourth lesson*/
+                position: fixed;
+                right: 50px;
+                bottom: 40px;
                 }
+
                 /*third lesson*/
                 nav li {
                   margin: 10px;
@@ -171,7 +180,7 @@
                     color:red;
                 }
 
-                p{
+                p {
                     font-size: 18px;
                 }
 
@@ -179,6 +188,14 @@
                     font-size: 20px;
                     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                     text-decoration: underline;
+                }
+
+                /*fourth lesson*/
+                #book-reviews p,
+                #book-reviews h3 {
+                    position: relative;
+                    left: 40%;
+                    width: 400px;
                 }
 
         </style>
@@ -250,9 +267,9 @@
     </div>
     <!--our reviews for school-->
     <p>
-        <H3><b>Reviews of school NDA-</b></H3> <br>
+        <div id="book-reviews"><H3><b>Reviews of school NDA-</b></H3> <br>
     SIDHIKSHA: THE school is so awesome. <br>
-        SAMRIDDHI: THE school teaches us equality.
+        SAMRIDDHI: THE school teaches us equality.</p></div>
     </p>
     <!--related videos-->
     <div id="videos" class="main-section-content">
